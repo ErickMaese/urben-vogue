@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    z-index: 10;
+    background-color: #E3E6F3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+h1.logo {
+    font-family: 'Lily Script One', cursive;
+}
+
+.header-bg {
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+
+.nav-menu {
+    display: flex;
+
+}
+
+.nav-menu li {
+    padding: 0 1rem;
+    position: relative;
+}
+
+.nav-menu li a {
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.nav-menu li a:hover,
+.nav-menu li a.active {
+    color: #088178;
+}
+
+.nav-menu li a.active::after {
+    content: '';
+    width: 30%;
+    height: px;
+    background: #088178;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+.hamburger {
+    display: none;
+}
+
+@media screen and (max-width: 1040px){
+    .nav-menu {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        top: 0;
+        right: 100%;
+        z-index: -3;
+        transition: 0.7s;
+    }
+
+    .nav-menu.active {
+        right: 0;
+    }
+
+    .nav-menu li {
+        padding: 1rem;
+    }
+
+    .nav-menu li a {
+        font-size: 2rem;
+    }
+
+    .hamburger {
+        display: initial;
+    }
+}
