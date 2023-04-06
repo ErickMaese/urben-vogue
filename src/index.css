@@ -37,7 +37,11 @@ p {
   margin: 15px 0 20px 0;
 }
 
-.section-p1 {
+.feature {
+  padding: 40px 80px;
+}
+
+.product {
   padding: 40px 80px;
 }
 
