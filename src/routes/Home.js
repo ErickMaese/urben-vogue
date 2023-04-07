@@ -4,14 +4,16 @@ import Hero from "../components/Hero";
 import Feature from "../components/Feature";
 import Product from "../components/Product";
 import Footer from "../components/Footer";
-// import Hero1 from'../assets/hero1.png'
+import Banner from "../components/Banner";
+import NewProduct from "../components/NewProduct";
+import Banner2 from "../components/Banner2";
+import Banner3 from "../components/Banner3";
 
 const Home = () => {
 	return (
 		<div>
 			<Navbar />
 			<Hero
-				// img={Hero1}
 				h4Tage="Trade-in-offer"
 				h2Tage="Super value deals"
 				h1Tage="On all products"
@@ -19,7 +21,11 @@ const Home = () => {
 			/>
 			<Feature />
 			<Product />
-      <Footer />
+			<Banner />
+			<NewProduct />
+			<Banner2 />
+			<Banner3 />
+			<Footer />
 		</div>
 	);
 };

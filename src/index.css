@@ -45,7 +45,7 @@ p {
   padding: 40px 80px;
 }
 
-.section-m1 {
+.banner, .banner2 {
   margin: 40px 0;
 }
 
@@ -55,4 +55,22 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+.btn {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #222;
+  background-color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #088178;
 }
