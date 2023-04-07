@@ -1,0 +1,29 @@
+.newsletter {
+    background-image: url("../assets/banner/b14.png");
+    background-color: rgb(8, 8, 56);
+    height: 20vh;
+    width: 100%;
+    background-position: start;
+    background-size: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+}
+
+.newsletter h4 {
+    color: rgb(158, 158, 158);
+    font-size: 12px;
+}
+
+.newsletter h2 {
+    color: white;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+.newsletter span {
+    color: #ef9f36;
+    font-size: 14px;
+}

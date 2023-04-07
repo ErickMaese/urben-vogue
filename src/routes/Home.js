@@ -8,6 +8,7 @@ import Banner from "../components/Banner";
 import NewProduct from "../components/NewProduct";
 import Banner2 from "../components/Banner2";
 import Banner3 from "../components/Banner3";
+import Newsletter from "../components/Newsletter";
 
 const Home = () => {
 	return (
@@ -25,6 +26,7 @@ const Home = () => {
 			<NewProduct />
 			<Banner2 />
 			<Banner3 />
+			<Newsletter />
 			<Footer />
 		</div>
 	);
