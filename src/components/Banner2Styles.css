@@ -8,7 +8,7 @@
 .banner2 .banner-box {
     background-image: url("../assets/banner/b17.jpg");
     height: 50vh;
-    min-width: 580px;
+    min-width: 650px;
     background-position: center;
     background-size: cover;
     display: flex;

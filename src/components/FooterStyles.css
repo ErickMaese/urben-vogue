@@ -1,0 +1,42 @@
+.footer-container h1 {
+    padding-left: 80px;
+    font-size: 30px;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+
+.footer h2 {
+    font-size: 14px;
+}
+
+.footer p {
+    font-size: 12px;
+    margin:  0 0 8px 0;
+}
+
+.footer .icons {
+    font-size: 22px;
+}
+
+.footer .icons .fb{
+    margin-right: 4px;
+}
+
+.footer .icons .tw{
+    margin-right: 4px;
+}
+
+.footer .install-app .row img {
+    border: 1px solid;
+    border-radius: 6px;
+    margin-right: 4px;
+}
+
+.footer .install-app img {
+    margin: 10px 0 15px 0;
+}

@@ -1,9 +1,14 @@
 import React from 'react'
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const Shop = () => {
-  return (
-    <div>Shop</div>
-  )
-}
+	return (
+		<div>
+			<Navbar />
+			<Footer />
+		</div>
+	);
+};
 
 export default Shop
