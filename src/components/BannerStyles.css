@@ -26,3 +26,15 @@
     color: #ef3636;
     font-size: 40px;
 }
+
+@media (max-width: 1040px) {
+    .banner{
+        height: 20vh;
+    }
+}
+
+@media (max-width: 477px) {
+    .banner{
+        height: 30vh;
+    }
+}

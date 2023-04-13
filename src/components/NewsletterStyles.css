@@ -53,3 +53,9 @@
     border-top-left-radius: 0;
     border-bottom-left-radius: 0
 }
+
+@media (max-width: 477px) {
+    .newsletter .form {
+        width: 100%;
+    }
+  }

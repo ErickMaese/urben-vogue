@@ -41,3 +41,22 @@
     font-size: 28px;
     font-weight: 800;
 }
+
+@media (max-width: 1040px) {
+    .banner3 .banner-box {
+        width: 30%;
+
+    }
+  }
+
+@media (max-width: 477px) {
+    .banner3 {
+        padding: 20px;
+        margin: 20px 0;
+    }
+
+    .banner3 .banner-box {
+        width: 30%;
+
+    }
+  }

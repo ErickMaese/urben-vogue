@@ -70,3 +70,15 @@ ul {
   color: white;
   background-color: #088178;
 }
+
+@media (max-width: 1040px) {
+  .feature, .product, .newsletter {
+    padding: 40px 40px;
+  }
+}
+
+@media (max-width: 477px) {
+  .feature, .product, .newsletter {
+    padding: 20px;
+  }
+}

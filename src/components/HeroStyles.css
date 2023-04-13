@@ -29,3 +29,25 @@
     font-weight: 700;
     font-size: 15px;
 }
+
+@media (max-width: 1040px) {
+    .hero {
+        height: 70vh;
+        padding: 0 80px;
+        background-position: top 30% right 30%;
+    }
+}
+
+@media (max-width: 477px) {
+    .hero {
+        padding: 0 40px;
+    }
+
+    .hero h2 {
+        font-size: 22px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+}

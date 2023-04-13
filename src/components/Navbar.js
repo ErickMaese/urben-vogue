@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./NavbarStyles.css";
 import { BiShoppingBag } from "react-icons/bi";
-import { TiThMenuOutline } from "react-icons/ti";
+import { TiThMenuOutline, TiTimesOutline } from "react-icons/ti";
 
 const Navbar = () => {
 	const [click, setClick] = useState(false);
@@ -14,6 +14,7 @@ const Navbar = () => {
 				<h1 className="logo">Urban Vogue</h1>
 			</Link>
 			<ul className={click ? "nav-menu active" : "nav-menu"}>
+				<TiTimesOutline className="close" onClick={handleClick}/>
 				<li>
 					<Link className="active" to="/">
 						Home
@@ -32,17 +33,17 @@ const Navbar = () => {
 					<Link to="/contact">Contact</Link>
 				</li>
 				<li>
-					<Link to="/cart">
-						<BiShoppingBag size={20} />
+					<Link className="bag" to="/cart">
+						<BiShoppingBag  size={20} />
 					</Link>
 				</li>
 			</ul>
 			<div className="mobile">
 				<Link to="/cart">
-					<BiShoppingBag size={24} />
+					<BiShoppingBag  size={24} />
 				</Link>
-				<div className="hamburger" onClick={handleClick}>
-					<TiThMenuOutline className="bar" size={20} />
+				<div className="hamburger">
+					<TiThMenuOutline className="bar" size={20} onClick={handleClick}/>
 				</div>
 			</div>
 		</div>

@@ -40,3 +40,10 @@
 .footer .install-app img {
     margin: 10px 0 15px 0;
 }
+
+@media (max-width: 1040px) {
+    .footer {
+        justify-content: flex;
+        padding: 0 40px;
+    }
+  }
