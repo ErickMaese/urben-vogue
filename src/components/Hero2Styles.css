@@ -1,0 +1,41 @@
+.hero2 {
+    background-image: url("../assets/banner/b1.jpg");
+    height: 30vh;
+    width: 100%;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero2 h2 {
+    color: white;
+}
+
+.hero2 p {
+    color: #ef3636;
+}
+
+@media (max-width: 1040px) {
+    .hero2 {
+        height: 70vh;
+        padding: 0 80px;
+        background-position: top 30% right 30%;
+    }
+}
+
+@media (max-width: 477px) {
+    .hero2 {
+        padding: 0 40px;
+    }
+
+    .hero2 h2 {
+        font-size: 22px;
+    }
+
+    .hero2 h1 {
+        font-size: 30px;
+    }
+}

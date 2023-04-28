@@ -73,6 +73,18 @@
     right: 10px;
 }
 
+.pagination {
+    text-align: center;
+}
+
+.pagination a{
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    font-weight: 600;
+    margin-left: 0.3rem;
+}
+
 @media (max-width: 1040px) {
     .pro-container {
         grid-template-columns: repeat(2, 1fr);

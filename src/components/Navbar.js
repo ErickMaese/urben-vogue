@@ -16,12 +16,12 @@ const Navbar = () => {
 			<ul className={click ? "nav-menu active" : "nav-menu"}>
 				<TiTimesOutline className="close" onClick={handleClick}/>
 				<li>
-					<Link className="active" to="/">
+					<Link  to="/">
 						Home
 					</Link>
 				</li>
 				<li>
-					<Link to="/shop">Shop</Link>
+					<Link className="active" to="/shop">Shop</Link>
 				</li>
 				<li>
 					<Link to="/blog">Blog</Link>

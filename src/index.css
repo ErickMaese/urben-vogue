@@ -37,11 +37,11 @@ p {
   margin: 15px 0 20px 0;
 }
 
-.feature, .product, .newsletter {
+.feature, .product, .newsletter, .product-detail {
   padding: 40px 80px;
 }
 
-.banner, .banner2,.newsletter {
+.banner, .banner2,.newsletter, .pagination {
   margin: 40px 0;
 }
 
